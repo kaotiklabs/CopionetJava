@@ -1,0 +1,13 @@
+	COPIONET
+the doc fraud detector
+=======================
+
+PASO A PASO:
+-Detecta los archivos arrastrados a su ventana (sDrop lib)
+-Distingue si es un fichero único o un directorio (para el tratamiento batch)
+-Procesa el documento para extraer el contenido como texto plano (usando Apache Tika jar)
+-Trocea el texto completo en multiples ngrams o chunks de 5 palabras (Ngrams jar)
+-Crea un hashcode de cada ngram
+-Almacena los hashcodes únicos en un HashSet global
+-Almacena los duplicados en un hashSet global de colisiones
+-Comprueba todos los documentos contra el hashSet global de colisiones
