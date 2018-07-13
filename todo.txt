@@ -1,0 +1,24 @@
+	COPIONET
+the doc fraud detector
+=======================
+
+TODO:
+
+- quan marques uno, marca els fills amb els percentages del pare
+- botó details
+- fer export en pdf
+- habilitar recursivitat de documents???
+- poder fer drop, uno a uno
+- comparador 1 to others
+- poder excloure un document (template)
+- obrir finestra amb el texte del doc (a lo diff)
+- durant scan, mostrar gràfiques chules?
+- poder exportar report a pdf?
+- netejar codi (llevar estructures de datos no necesaries)
+- revisar rendiment i fps
+- comprovar asincrono
+- tractament de la metadata
+- poder modificar número de ngrams??
+(chungo, la funció no accepta accents) - fer el sanitize de ngmrams per a idioma español, valencià
+(chungo, cal modificar porque no soporta java 8)- importar el codi font de la api ngram
+- versió web
